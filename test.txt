@@ -1,0 +1,19 @@
+bg.島_坂道_差分(夕方)|jpg
+middle.chrysoA_a|png
+dialog."???"."ass we can"
+option2."肛"|flag1."不肛"|flag2
+click
+op.flag1{
+	dialog."???"."boy next door"
+	click
+	middle.clear
+	bg.図書館２階_隠し書庫_白黒|jpg
+	dialog.""."deep dark fantasy"
+	click
+	des."菊花好痛"
+}
+op.flag2{
+	middle.chrysoB_g|png
+	dialog."???"."interesting"
+}
+click
